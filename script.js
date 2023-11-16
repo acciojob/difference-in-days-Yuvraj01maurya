@@ -16,7 +16,7 @@ var dateDiffInDays = function (date1, date2) {
   );
 
   const diffDays = Math.floor((utc2 - utc1) / oneDay);
-  return diffDays;
+ return alert(diffDays);
 }
 
 // Examples
@@ -30,6 +30,8 @@ console.log(dateDiffInDays("2022-03-15", "2022-03-01")); // Output: -14
 const dateOne = prompt("Enter Start Date.");
 const dateTwo = prompt("Enter End Date.");
 alert(dateDiffInDays(dateOne, dateTwo));
+
+
 
 
 
